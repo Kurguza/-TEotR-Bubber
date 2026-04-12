@@ -3,10 +3,20 @@
 	desc = "A small pneumatic waste disposal unit."
 	icon_state = "disposal"
 	icon = 'modular_teotr/_mini_mod/disposal_small/disposalsmall.dmi'
+	density = FALSE
+
+
+/// Mouse drop another mob or self
+/obj/machinery/disposal/bin/small/mouse_drop_receive(atom/target, mob/living/user, params)
+	if(isliving(target))
+		stuff_mob_in_small(target, user)
+	if(istype(target, /obj/structure/closet/body_bag) && (user.mobility_flags & (MOBILITY_PICKUP|MOBILITY_STAND) == (MOBILITY_PICKUP|MOBILITY_STAND)))
+		stuff_bodybag_in(target, user)
 
 
 // The trash can was small, so large carbon fibers couldn't fit in it. This one, apparently, is on the line 22.
-/obj/machinery/disposal/bin/small/proc/stuff_mob_in(mob/living/target, mob/living/user)
+/// Handles stuffing a grabbed mob into the disposal
+/obj/machinery/disposal/bin/small/proc/stuff_mob_in_small(mob/living/target, mob/living/user)
 	var/ventcrawler = HAS_TRAIT(user, TRAIT_VENTCRAWLER_ALWAYS) || HAS_TRAIT(user, TRAIT_VENTCRAWLER_NUDE)
 	if(!iscarbon(user) && !ventcrawler) //only carbon and ventcrawlers can climb into disposal by themselves.
 		if (iscyborg(user))
