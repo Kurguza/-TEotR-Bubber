@@ -2,7 +2,7 @@
 	name = "small disposal unit"
 	desc = "A small pneumatic waste disposal unit."
 	icon_state = "disposal"
-	icon = 'modular_teotr/_mini_mod/disposal_small/disposalsmall.dmi'
+	icon = 'modular_teotr/Icons/obj/disposalsmall.dmi'
 	density = FALSE
 
 
@@ -47,3 +47,11 @@
 		log_combat(user, target, "stuffed", addition="into [src]")
 	update_appearance()
 	return TRUE
+
+/*
+GLOBAL_LIST_INIT(disposal_pipe_recipes, list(
+	"Disposal Pipes" = list(
+		new /datum/pipe_info/disposal("Small bin", /obj/machinery/disposal/bin/small),
+	)
+))
+*/

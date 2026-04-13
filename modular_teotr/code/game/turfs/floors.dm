@@ -1,5 +1,5 @@
 /turf/open/floor/bay
-	icon = 'modular_teotr/floors/icons/tiles.dmi'
+	icon = 'modular_teotr/Icons/turf/tiles.dmi'
 
 
 
@@ -65,13 +65,13 @@
 /turf/open/floor/iron/bay/pool
 	name = "pool floor"
 	desc = "Sunken flooring designed to hold liquids."
-	icon = 'modular_teotr/floors/icons/tiles.dmi'
+	icon = 'modular_teotr/Icons/turf/tiles.dmi'
 	icon_state = "pool"
 
 /obj/effect/turf_decal/bay/pool
-	icon = 'modular_teotr/floors/icons/tiles.dmi'
+	icon = 'modular_teotr/Icons/turf/tiles.dmi'
 	icon_state = "pool_edges"
 
 /obj/effect/turf_decal/bay/corners
-	icon = 'modular_teotr/floors/icons/tiles.dmi'
+	icon = 'modular_teotr/Icons/turf/tiles.dmi'
 	icon_state = "pool_corners"
