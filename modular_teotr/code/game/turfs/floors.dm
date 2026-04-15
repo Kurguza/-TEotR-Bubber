@@ -1,6 +1,6 @@
 /turf/open/floor/bay
 	icon = 'modular_teotr/Icons/turf/tiles.dmi'
-
+	icon_state = "techfloor_grid"
 
 /*
 /turf/open/floor/bay/mono
@@ -45,18 +45,18 @@
 
 
 
-/turf/open/floor/bay/tech/grid
+/turf/open/floor/bay/grid
 	icon_state = "techfloor_grid"
-/turf/open/floor/bay/tech/grid/edge
+/turf/open/floor/bay/grid/edge
 	icon_state = "techfloor_grid_edge"
 
-/turf/open/floor/bay/tech/grid/half
+/turf/open/floor/bay/grid/half
 	icon_state = "techfloor_grid_half"
 
-/turf/open/floor/bay/tech/grid/corner
+/turf/open/floor/bay/grid/corner
 	icon_state = "techfloor_grid_corner"
 
-/turf/open/floor/bay/tech/grid/large
+/turf/open/floor/bay/grid/large
 	icon_state = "techfloor_grid_large"
 
 
@@ -156,35 +156,35 @@
 	name = "old grid floor tile"
 	singular_name = "old grid floor tile"
 	icon_state = "techtile_grid"
-	turf_type = /turf/open/floor/bay/tech/large
+	turf_type = /turf/open/floor/bay/grid
 	merge_type = /obj/item/stack/tile/iron/bay/grid
 
 /obj/item/stack/tile/iron/bay/grid/edge
 	name = "old grid floor tile"
 	singular_name = "old grid floor tile. T"
 	icon_state = "techtile_grid"
-	turf_type = /turf/open/floor/bay/tech/grid/edge
+	turf_type = /turf/open/floor/bay/grid/edge
 	merge_type = /obj/item/stack/tile/iron/bay/grid/edge
 
 /obj/item/stack/tile/iron/bay/grid/half
 	name = "old grid floor tile"
 	singular_name = "old grid floor tile. H"
 	icon_state = "techtile_grid"
-	turf_type = /turf/open/floor/bay/tech/grid/half
+	turf_type = /turf/open/floor/bay/grid/half
 	merge_type = /obj/item/stack/tile/iron/bay/grid/half
 
 /obj/item/stack/tile/iron/bay/grid/corner
 	name = "old grid floor tile"
 	singular_name = "old grid floor tile. L"
 	icon_state = "techtile_grid"
-	turf_type = /turf/open/floor/bay/tech/grid/corner
+	turf_type = /turf/open/floor/bay/grid/corner
 	merge_type = /obj/item/stack/tile/iron/bay/grid/corner
 
 /obj/item/stack/tile/iron/bay/grid/large
 	name = "old grid floor tile"
 	singular_name = "old grid floor tile"
 	icon_state = "techtile_grid"
-	turf_type = /turf/open/floor/bay/tech/grid/large
+	turf_type = /turf/open/floor/bay/grid/large
 	merge_type = /obj/item/stack/tile/iron/bay/grid/large
 
 
