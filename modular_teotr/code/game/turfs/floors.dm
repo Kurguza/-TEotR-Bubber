@@ -121,7 +121,7 @@
 /obj/item/stack/tile/iron/bay/edge
 	name = "old tech floor tile. T"
 	singular_name = "old tech floor tile"
-	icon_state = "tile_textured_corner"
+	icon_state = "techtile_grey"
 	turf_type = /turf/open/floor/bay/tech/edge
 	merge_type = /obj/item/stack/tile/iron/bay/edge
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
@@ -129,7 +129,7 @@
 /obj/item/stack/tile/iron/bay/half
 	name = "old tech floor tile"
 	singular_name = "old tech floor tile. H"
-	icon_state = "tile_textured_corner"
+	icon_state = "techtile_grey"
 	turf_type = /turf/open/floor/bay/tech/half
 	merge_type = /obj/item/stack/tile/iron/bay/half
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
@@ -137,7 +137,7 @@
 /obj/item/stack/tile/iron/bay/corner
 	name = "old tech floor tile"
 	singular_name = "old tech floor tile. L"
-	icon_state = "tile_textured_corner"
+	icon_state = "techtile_grey"
 	turf_type = /turf/open/floor/bay/tech/corner
 	merge_type = /obj/item/stack/tile/iron/bay/corner
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
@@ -145,7 +145,7 @@
 /obj/item/stack/tile/iron/bay/large
 	name = "old tech floor tile"
 	singular_name = "old tech floor tile"
-	icon_state = "tile_textured_corner"
+	icon_state = "techtile_grey"
 	turf_type = /turf/open/floor/bay/tech/large
 	merge_type = /obj/item/stack/tile/iron/bay/large
 
@@ -226,40 +226,40 @@
 
 
 
-/obj/item/stack/tile/iron/bay
+/obj/item/stack/tile/iron/bay/ridged
 	name = "old techmaint floor tile"
 	singular_name = "old techmaint floor tile"
 	icon_state = "tile_ridged"
 	turf_type = /turf/open/floor/bay/steel_ridged
-	merge_type = /obj/item/stack/tile/iron/bay
+	merge_type = /obj/item/stack/tile/iron/bay/ridged
 
-/obj/item/stack/tile/iron/bay/edge
+/obj/item/stack/tile/iron/bay/ridged/edge
 	name = "old techmaint floor tile"
 	singular_name = "old techmaint floor tile. T"
 	icon_state = "tile_ridged"
 	turf_type = /turf/open/floor/bay/steel_ridged/edge
-	merge_type = /obj/item/stack/tile/iron/bay/edge
+	merge_type = /obj/item/stack/tile/iron/bay/ridged/edge
 
-/obj/item/stack/tile/iron/bay/half
+/obj/item/stack/tile/iron/bay/ridged/half
 	name = "old techmaint floor tile"
 	singular_name = "old techmaint floor tile. H"
 	icon_state = "tile_ridged"
 	turf_type = /turf/open/floor/bay/steel_ridged/half
-	merge_type = /obj/item/stack/tile/iron/bay/half
+	merge_type = /obj/item/stack/tile/iron/bay/ridged/half
 
-/obj/item/stack/tile/iron/bay/corner
+/obj/item/stack/tile/iron/bay/ridged/corner
 	name = "old techmaint floor tile"
 	singular_name = "old techmaint floor tile. L"
 	icon_state = "tile_ridged"
 	turf_type = /turf/open/floor/bay/steel_ridged/corner
 	merge_type = /obj/item/stack/tile/iron/bay/corner
 
-/obj/item/stack/tile/iron/bay/large
+/obj/item/stack/tile/iron/bay/ridged/large
 	name = "old techmaint floor tile"
 	singular_name = "old techmaint floor tile"
 	icon_state = "tile_ridged"
 	turf_type = /turf/open/floor/bay/steel_ridged/large
-	merge_type = /obj/item/stack/tile/iron/bay/large
+	merge_type = /obj/item/stack/tile/iron/bay/ridged/large
 /*
 /turf/open/floor/iron/bay/pool
 	name = "pool floor"
