@@ -100,6 +100,8 @@
 	clothing_traits = list(TRAIT_SECURITY_HUD)
 	flash_protect = FLASH_PROTECTION_FLASH
 	flags_cover = GLASSESCOVERSEYES
+	color_cutoffs = list(10, 35, 10)
+	glass_colour_type = /datum/client_colour/glass_colour/orange
 	actions_types = list(/datum/action/item_action/toggle_nv)
 
 /obj/item/clothing/glasses/trickblindfold/obsolete/ev_obsoletefold/t1
@@ -114,10 +116,8 @@
 	if(!ishuman(user))
 		return CLICK_ACTION_BLOCKING
 	if(termal)
-		vision_flags &= ~SEE_MOBS|SEE_OBJS
 		detach_clothing_traits(TRAIT_THERMAL_VISION)
 	else
-		vision_flags |= SEE_MOBS|SEE_OBJS
 		attach_clothing_traits(TRAIT_THERMAL_VISION)
 	termal = !termal
 	var/mob/living/carbon/human/human_user = user
