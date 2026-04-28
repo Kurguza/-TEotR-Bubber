@@ -8852,6 +8852,8 @@
 #include "modular_teotr\code\game\objects\effects\decal.dm"
 #include "modular_teotr\code\game\turfs\floors.dm"
 #include "modular_teotr\modules\EvoMetric\code\clothing.dm"
+#include "modular_teotr\modules\EvoMetric\code\poster.dm"
+#include "modular_teotr\modules\EvoMetric\code\weapon.dm"
 #include "modular_zubbers\code\__DEFINES\bloodsucker_defines.dm"
 #include "modular_zubbers\code\__DEFINES\guardian_defines.dm"
 #include "modular_zubbers\code\__DEFINES\maps.dm"
