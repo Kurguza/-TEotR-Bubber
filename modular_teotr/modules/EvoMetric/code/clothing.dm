@@ -78,7 +78,7 @@
 	name = "Corporate uniform"
 	desc = "Corporate EvoMetric uniform... white."
 	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
-	icon_state = "ev_white_alt"
+	icon_state = "ev_white"
 	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometric_suits.dmi'
 
 /obj/item/clothing/under/syndicate/combat/ev_white_alt
