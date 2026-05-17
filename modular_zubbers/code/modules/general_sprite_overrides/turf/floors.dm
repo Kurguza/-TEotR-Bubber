@@ -1,4 +1,3 @@
-/*
 /turf/open/floor
 	icon = 'modular_zubbers/icons/turf/floors/floors.dmi'
 
@@ -125,4 +124,3 @@
 
 /obj/structure/thermoplastic
 	icon = 'modular_zubbers/icons/turf/floors/tram.dmi'
- */

@@ -1,6 +1,5 @@
 //WARNING
 
-/*
 //standard
 /obj/effect/turf_decal/stripes
 	icon = 'modular_zubbers/icons/turf/decals/decals.dmi'
@@ -62,4 +61,3 @@
 
 /obj/effect/turf_decal/siding/wideplating_new/light
 	color = "#e2e2e2"
- */

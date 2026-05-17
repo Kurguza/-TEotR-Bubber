@@ -2,7 +2,7 @@
 	name = "EVSSF Zipper"
 	shuttle_id = "zipper"
 	description = "(TRANSPONDER NOT RESPONDING)"
-	mappath = 'modular_teotr/modules/Zipper/zipper.dmm'
+	mappath = 'modularz_teotr/modules/Zipper/zipper.dmm'
 
 /obj/machinery/computer/shuttle/zipper
 	name = "zipper shuttle console"

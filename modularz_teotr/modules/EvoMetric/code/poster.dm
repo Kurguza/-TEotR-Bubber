@@ -2,7 +2,7 @@
 	name = "Постер ЕвоМетрик"
 	desc = "Это постер с символикой ЕвоМетрик."
 
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/poster_evo.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/poster_evo.dmi'
 	icon_state = "Evo_b"
 
 /obj/structure/sign/poster/contraband/EvoMetric/v

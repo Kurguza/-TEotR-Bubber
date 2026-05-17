@@ -2,7 +2,7 @@
 	name = "\improper Type 5 laser gun"
 	desc = "The Type 5 Heat Delivery System, developed by Nanotrasen. The workhorse of Nanotrasen's security forces."
 
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/weapon/ranged.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/weapon/ranged.dmi'
 	icon_state = "ev_pistol"
 
 	inhand_icon_state = "laser"

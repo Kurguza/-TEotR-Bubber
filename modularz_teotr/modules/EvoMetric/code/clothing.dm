@@ -1,18 +1,18 @@
 /obj/item/clothing/shoes/jackboots/ev_boots_black
 	name = "Black boots"
 	desc = "Black durable. There is a marking on the side of the sole (EvoMetric LLC)"
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
 	icon_state = "ev_boots_black"
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometcric_boots.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometcric_boots.dmi'
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	armor_type = /datum/armor/armor_ev_boots
 
 /obj/item/clothing/shoes/jackboots/ev_boots_white
 	name = "White boots"
 	desc = "White durable. There is a marking on the side of the sole (EvoMetric LLC)"
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
 	icon_state = "ev_boots_white"
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometcric_boots.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometcric_boots.dmi'
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	armor_type = /datum/armor/armor_ev_boots
 
@@ -30,9 +30,9 @@
 /obj/item/clothing/suit/armor/ev_armor
 	name = "White armor"
 //	desc = ""
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
 	icon_state = "ev_armor"
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometric_armor.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometric_armor.dmi'
 	armor_type = /datum/armor/suit_ev_armor
 
 /datum/armor/suit_ev_armor
@@ -48,9 +48,9 @@
 /obj/item/clothing/suit/armor/ev_armor/military
 	name = "Military white armor"
 	desc = "Military bulletproof vest in white color. Judging by the markings, it consists of composite materials using plasticine, carbon nanotubes and a bunch of other scientific stuff."
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
 	icon_state = "ev_armor_white"
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometric_armor.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometric_armor.dmi'
 	armor_type = /datum/armor/suit_ev_armor_military
 	body_parts_covered = CHEST|GROIN|ARMS
 /obj/item/clothing/suit/armor/ev_armor/military/alt
@@ -70,30 +70,30 @@
 /obj/item/clothing/under/syndicate/combat/ev_black
 	name = "Corporate uniform"
 	desc = "Corporate EvoMetric uniform... black."
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
 	icon_state = "ev_black"
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometric_suits.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometric_suits.dmi'
 
 /obj/item/clothing/under/syndicate/combat/ev_white
 	name = "Corporate uniform"
 	desc = "Corporate EvoMetric uniform... white."
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
 	icon_state = "ev_white"
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometric_suits.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometric_suits.dmi'
 
 /obj/item/clothing/under/syndicate/combat/ev_white_alt
 	name = "Corporate uniform"
 	desc = "Corporate EvoMetric uniform... white."
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
 	icon_state = "ev_white_alt"
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometric_suits.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometric_suits.dmi'
 
 
 /obj/item/clothing/glasses/trickblindfold/obsolete/ev_obsoletefold
 	name = "black blindfold"
 	desc = "EvoMetric corporate color blindfold HUD."
-	icon = 'modular_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
-	worn_icon = 'modular_teotr/modules/EvoMetric/icons/mob/clothing/evometric_glasses.dmi'
+	icon = 'modularz_teotr/modules/EvoMetric/icons/obj/clothing/ev_clothing.dmi'
+	worn_icon = 'modularz_teotr/modules/EvoMetric/icons/mob/clothing/evometric_glasses.dmi'
 	icon_state = "ev_obsoletefold"
 	base_icon_state = "ev_obsoletefold"
 	can_switch_eye = TRUE

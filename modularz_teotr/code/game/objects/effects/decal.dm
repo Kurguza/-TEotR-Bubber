@@ -1,6 +1,6 @@
 
 /obj/effect/turf_decal/bay
-	icon = 'modular_teotr/Icons/effects/bay_decals.dmi'
+	icon = 'modularz_teotr/Icons/effects/bay_decals.dmi'
 	icon_state = "manydot_tiled"
 
 /obj/effect/turf_decal/bay/tiled

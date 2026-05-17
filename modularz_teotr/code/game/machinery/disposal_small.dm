@@ -2,7 +2,7 @@
 	name = "small disposal unit"
 	desc = "A small pneumatic waste disposal unit."
 	icon_state = "disposal"
-	icon = 'modular_teotr/Icons/obj/disposalsmall.dmi'
+	icon = 'modularz_teotr/Icons/obj/disposalsmall.dmi'
 	density = FALSE
 
 

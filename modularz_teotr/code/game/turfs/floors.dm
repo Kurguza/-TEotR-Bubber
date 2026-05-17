@@ -1,5 +1,5 @@
 /turf/open/floor/bay
-	icon = 'modular_teotr/Icons/turf/tiles.dmi'
+	icon = 'modularz_teotr/Icons/turf/tiles.dmi'
 	icon_state = "techfloor_grid"
 
 /*
@@ -99,7 +99,7 @@
 	name = "old tech floor tile"
 	singular_name = "old tech floor tile"
 	desc = "The ground you walk on."
-	icon = 'modular_teotr/Icons/obj/tiles.dmi'
+	icon = 'modularz_teotr/Icons/obj/tiles.dmi'
 	icon_state = "techtile_grey"
 	inhand_icon_state = "tile"
 	force = 6
@@ -264,14 +264,14 @@
 /turf/open/floor/iron/bay/pool
 	name = "pool floor"
 	desc = "Sunken flooring designed to hold liquids."
-	icon = 'modular_teotr/Icons/turf/tiles.dmi'
+	icon = 'modularz_teotr/Icons/turf/tiles.dmi'
 	icon_state = "pool"
 
 /obj/effect/turf_decal/bay/pool
-	icon = 'modular_teotr/Icons/turf/tiles.dmi'
+	icon = 'modularz_teotr/Icons/turf/tiles.dmi'
 	icon_state = "pool_edges"
 
 /obj/effect/turf_decal/bay/corners
-	icon = 'modular_teotr/Icons/turf/tiles.dmi'
+	icon = 'modularz_teotr/Icons/turf/tiles.dmi'
 	icon_state = "pool_corners"
 */
