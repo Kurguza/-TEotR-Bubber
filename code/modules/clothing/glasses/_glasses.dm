@@ -101,7 +101,7 @@
 	flash_protect = FLASH_PROTECTION_SENSITIVE
 	// Night vision mesons get the same but more intense
 	color_cutoffs = list(10, 35, 10)
-	glass_colour_type = /datum/client_colour/glass_colour/lightgreen
+	glass_colour_type = /datum/client_colour/glass_colour/lightblue
 	actions_types = list(/datum/action/item_action/toggle_nv)
 
 /obj/item/clothing/glasses/meson/night/update_icon_state()

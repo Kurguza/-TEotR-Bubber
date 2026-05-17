@@ -10228,5 +10228,15 @@
 #include "modular_zubbers\modules\taur_mechanics\taur_body.dm"
 #include "modular_zubbers\modules\taur_mechanics\taur_clothing_offset.dm"
 #include "modular_zubbers\modules\wood_walls\code\new_floors.dm"
+#include "modularz_teotr\code\game\machinery\cryogenic_feed.dm"
+#include "modularz_teotr\code\game\machinery\disposal_small.dm"
+#include "modularz_teotr\code\game\objects\effects\decal.dm"
+#include "modularz_teotr\code\game\turfs\floors.dm"
+#include "modularz_teotr\code\game\turfs\darkmaint_catwalk.dm"
+#include "modularz_teotr\modules\EvoMetric\code\clothing.dm"
+#include "modularz_teotr\modules\EvoMetric\code\poster.dm"
+#include "modularz_teotr\modules\EvoMetric\code\weapon.dm"
+#include "modularz_teotr\modules\floors\code\floors.dm"
+#include "modularz_teotr\modules\Zipper\zipper.dm"
 // END_INCLUDE
 
